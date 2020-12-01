@@ -1,0 +1,142 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrap{
+	width: 1000px;
+	margin: 0 auto;
+}
+.header{
+	height: 170px;
+	background: grey;
+}
+.logo img{
+	padding-left: 50px;
+	padding-top: 25px;
+	float: left;
+}
+.text{
+	float: left;
+	color: orange;
+	padding-left: 100px;
+}
+.text input{
+	border-radius: 10px;
+	outline: none;
+	padding: 8px;
+	border: 2px solid #FFD656;
+}
+.text h2{
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+.result{
+	float: left;
+	width: 100px;
+	height: 100px;
+	background: orange;
+	border-radius: 50%;
+	margin-top: 30px;
+	margin-left: 50px;
+	position: relative;
+}
+.result h2{
+	position: absolute;
+	line-height: 100px;
+	left: 25px;
+}
+.result:hover{
+	cursor: pointer;
+}
+.result:active{
+	background: red;
+}
+.display{
+	float: left;
+}
+.record{
+	height: 530px;
+	background: #BFB2B2;
+}
+.record .title{
+	width: 140px;
+	margin: 0 auto;
+	padding-top: 20px;
+	font-size: 36px;
+}
+.record span{
+	padding-left: 50px;		
+}
+.record .alignBMI{
+	position: absolute;
+	left: 130px;
+}
+.record .alignWeight{
+	position: absolute;
+	left: 260px;
+}
+.record .alignHeight{
+	position: absolute;
+	left: 390px;
+}
+.record li{	
+	width: 700px;
+	margin: 0 auto;
+	background: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	position: relative;
+}
+.record li:hover{
+	border: 1px solid blue;
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+.record a{
+	position: absolute;
+	right: 50px;
+}
+.footer{
+	height: 100px;
+	background-color: #FFD656;
+}
